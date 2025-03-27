@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SimpleBusinessCardTemplate/static/css/main.4fa11013.css",
+    "main.js": "/SimpleBusinessCardTemplate/static/js/main.8e461622.js",
+    "index.html": "/SimpleBusinessCardTemplate/index.html",
+    "main.4fa11013.css.map": "/SimpleBusinessCardTemplate/static/css/main.4fa11013.css.map",
+    "main.8e461622.js.map": "/SimpleBusinessCardTemplate/static/js/main.8e461622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa11013.css",
+    "static/js/main.8e461622.js"
+  ]
+}
