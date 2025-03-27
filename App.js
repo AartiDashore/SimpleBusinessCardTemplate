@@ -1,4 +1,5 @@
 import React from "react";
+import { HashRouter } from "react-router-dom";
 import "./BusinessCard.css"; // CSS for styling the card
 
 const BusinessCard = () => {
