@@ -1,4 +1,6 @@
-{
+{  "name": "SimpleBusinessCardTemplate",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -6,4 +8,36 @@
   },
   "main": "/index.js",
   "devDependencies": {}
+
+
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build" 
+  },
+  "homepage": "https://AartiDashore.github.io/SimpleBusinessCardTemplate",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+
+  
 }
