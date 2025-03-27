@@ -17,8 +17,6 @@ const BusinessCard = () => {
         <div className="social-icons">
           <a href="https://linkedin.com/in/johndoe" target="_blank" rel="noopener noreferrer">
             <img src="/icons/linkedin.png" alt="LinkedIn" />
-            <i class="fab fa-linkedin"></i>
-
           </a>
           <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer">
             <img src="/icons/github.png" alt="GitHub" />
