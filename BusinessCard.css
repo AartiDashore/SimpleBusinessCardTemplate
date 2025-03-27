@@ -1,0 +1,76 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: rgb(56, 29, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  background: linear-gradient(to right, #00ff41 0%, #0d0208 50%, #00ff41 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.business-card {
+  background: linear-gradient(120deg, #111111, #007FFF);
+  color: #66FF00;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-header h1 {
+  margin: 0;
+  font-size: 24px;
+   font-family: Consolas
+    color: #66FF00;
+}
+
+.card-header .title {
+  margin: 5px 0 20px;
+  font-family: Consolas; 
+  font-style: bold;
+}
+
+.card-body p {
+  margin: 10px 0;
+}
+
+.card-body a {
+  color: #ffd700;
+  text-decoration: none;
+    font-family: Consolas; 
+    color: #66FF00;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
