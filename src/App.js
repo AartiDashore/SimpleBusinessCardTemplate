@@ -4,7 +4,7 @@ import "./BusinessCard.css"; // CSS for styling the card
 
 const BusinessCard = () => {
   return (
-    <BrowserRouter basename="/SimpleBusinessCardTemplate">
+    <HashRouter basename="/SimpleBusinessCardTemplate">
       <div className="business-card">
       <div className="card-header">
         <h1>John Doe</h1>
@@ -27,6 +27,7 @@ const BusinessCard = () => {
         </div>
       </div>
     </div>
+  </HashRouter>
   );
 };
 
