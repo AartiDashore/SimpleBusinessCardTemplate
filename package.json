@@ -1,4 +1,4 @@
-{  "name": "SimpleBusinessCardTemplate",
+{ "name": "SimpleBusinessCardTemplate",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -6,10 +6,7 @@
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.0"
   },
-  "main": "/index.js",
-  "devDependencies": {}
-
-
+  "main": "/index.html",
   
   "scripts": {
     "start": "react-scripts start",
